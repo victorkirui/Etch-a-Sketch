@@ -4,16 +4,12 @@
   padding: 0;
 }
 #container {
+  width: 960px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
-  max-width: 960px;
-  margin: auto;
-  background-color: antiquewhite;
 }
 .grid {
   display: block;
-  background-color: #f4f4f4;
-}
-.grid:nth-child(odd) {
-  background-color: yellow;
+  background-color: rgb(163, 163, 230);
 }
